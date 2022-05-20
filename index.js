@@ -38,26 +38,26 @@ app.get('/', (req, res) => {
   res.send("This is homepage and id is " + id);
   switch (id) {
     case "498":
-      sendMessage("https://staticbodyshop.gumlet.io/pub/media/weltpixel/owlcarouselslider/images/1/_/1_1__2.jpg","Get 30% off on The Body Shop orders, Head to your nearest store today!! ")
+      sendMessage("https://res.cloudinary.com/dkvd4ivht/image/upload/v1653050332/offers/Amazon-Clearence__dbopje.jpg"," Wow Clearance Sale is live ! - Clothing: Flat 70% off from a great selection at Clothing & Accessories Store ")
       break;
     case "500":
-      sendMessage("https://res.cloudinary.com/dp5naxeap/image/upload/v1612359544/index_xicaqd.jpg", "Hello there! You are near Dominos.Now Get 10% OFF on your next 3 orders");
+      sendMessage("https://res.cloudinary.com/dkvd4ivht/image/upload/v1653049970/offers/movie_zaoisq.jpg", "Hello there! Wanted to watch a movie? .Now Get 50% OFF upto ₹300 at bookmyshow.com ");
       break;
     case "502":
-      sendMessage("https://res.cloudinary.com/dp5naxeap/image/upload/v1612590969/croma_cjcjgg.jpg", "Hi! Get upto 48% off on buying new mobile phone");
+      sendMessage("https://res.cloudinary.com/dkvd4ivht/image/upload/v1653048044/offers/chroma_offer_gigwnf.png", "Hi! Get upto 70% off on buying new electronics on chroma");
       break;
     case "503":
-      sendMessage("https://pantaloons.imgix.net/img/app/shopmedia/production/8/8-30-7268.jpg", "Upto 50% off on Pantaloons Pay Day Sale!!!");
+      sendMessage("https://res.cloudinary.com/dkvd4ivht/image/upload/v1653046382/offers/Mcd_meals_offer_flqbzl.jpg","Hi! MCDonalds classic burger meal at flat ₹479 order now | Limited offer!");
       break;
     case "507":
-      sendMessage("https://res.cloudinary.com/dp5naxeap/image/upload/v1612591559/burger_fulk9h.jpg", "Now save upto 37%.Buy 2 burgers at ₹99");
+      sendMessage("https://res.cloudinary.com/dkvd4ivht/image/upload/v1653049510/offers/freeburgerv_aw23jw.jpg","Hey! Free Burger for you and your friend refer now !");
       break;
     case "510":
-      sendMessage("https://res.cloudinary.com/dp5naxeap/image/upload/v1612591711/easyday_eo2hi7.jpg", "Save upto 60% on Grocery Shopping.Visit today.");
+      sendMessage("https://res.cloudinary.com/dkvd4ivht/image/upload/v1653047805/offers/NCR-Save-Big_cxaxcf.jpg","Yo Save upto 40% on Grocery Shopping + 10% extra cashback Visit today https://www.sparindia.com/.");
       break;
 
     default:
-      sendMessage("https://res.cloudinary.com/dp5naxeap/image/upload/v1612359544/index_xicaqd.jpg", "Save upto 40% on Dominos Classic Pizzas. Order today!! ");
+      sendMessage("https://res.cloudinary.com/dkvd4ivht/image/upload/v1653046915/offers/dominos_offer_aoeejg.jpg", "Save upto 40% on Dominos Classic Pizzas. Order today!! ");
       break;
   }
 
