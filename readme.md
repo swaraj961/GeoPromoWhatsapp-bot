@@ -1,5 +1,5 @@
 # Whatsapp bot 
-Integrated Whatsapp bot which triggers new offer from backend and sent it to the registered mobile no 
+Integrated Whatsapp bot which triggers new offer from backend and sent it to the registered mobile no via whatsapp
 
 # heroku url 
 
